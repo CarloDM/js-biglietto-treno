@@ -1,10 +1,7 @@
-Title 
+biglietto treno
 ===
 
-## Papar Information
-
-Title:  ` js-biglietto-treno`
-
+## Title:  ` js-biglietto-treno`
 
 Il programma dovrà chiedere all’utente il numero di chilometri che vuole percorrere e l’età del passeggero.
 Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio, secondo queste regole:
