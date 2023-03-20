@@ -1,6 +1,6 @@
-const nChilometri = 10;
+const eta = prompt('inserire l età?');
 
-const eta = 66;
+const nChilometri = prompt('inserire i chilometri');
 
 const prezzo = nChilometri * 0.21 
 
@@ -22,7 +22,9 @@ else {
 
 console.log('prezzoscontato',prezzoSconto)
 
+let prezzoArrotondato = prezzoSconto.toFixed(2)
 
+console.log('prezzoscontato e arrotondato',prezzoArrotondato)
 
-
+document.getElementById('price').innerHTML = prezzoArrotondato + ' &euro;'
 
